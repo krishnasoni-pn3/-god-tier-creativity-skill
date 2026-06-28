@@ -1,8 +1,130 @@
-⚡ God-Tier Creativity: Cognitive Scaffolding for AGI WorkflowsThe ultimate Skill for boundless creativity through structured lateral thinking. Empowers AGI agents like Claude Code and OpenCode to abandon clichés and execute divergent processes. Forces reasoning models to generate highly original, unconventional concepts.🏗️ Architecture OverviewWhen deploying advanced AGI models in production, a common degradation in Developer Experience (DX) and output quality occurs: models regress to the mean, producing statistically probable, but ultimately pedestrian, outputs.This repository provides an enterprise-ready cognitive scaffolding designed to override that default behavior. By implementing a strict 5-step divergent execution protocol, this Skill forces your AGI agents to bypass clichés and synthesize genuinely novel architectures, concepts, and solutions.⚙️ The Execution Pipeline (5-Step Protocol)To achieve deterministic originality, the agent is constrained to process queries through the following pipeline before outputting a final response:Deconstruction (The Baseline): The agent identifies and isolates the standard, expected assumptions of the prompt to establish a baseline of what to explicitly avoid.Inversion (The Void): The agent selects 2-3 core assumptions and mathematically inverts them to force the workflow out of local maxima.Cross-Pollination (The Catalyst): The agent pulls structural principles from a completely unrelated domain (e.g., Glaciology, Acoustics, Mycology) to force a conceptual collision.Synthesis (The Masterpiece): The collision is refined into a functional, highly defensible output.The Wildcard (The Impossible): The agent generates a final "moonshot" variant (labeled with 🃏) that borders on the impossible but would be paradigm-shifting if executed.🚀 Deployment & IntegrationThis Skill is designed to be injected directly into the system prompts of your autonomous coding environments or used to generate high-variance JSONL datasets for local model fine-tuning.Integrating with OpenCode / Claude CodeTo deploy this as a custom skill for your agent, append the contents of SKILL.md to your agent's system instruction or skill registry.Example opencode.json configuration:{
+# ⚡ God-Tier Creativity
+
+### Cognitive Scaffolding for AGI Workflows
+
+> **A structured creativity framework that forces AGI systems to abandon clichés and generate genuinely original ideas through deterministic divergent reasoning.**
+
+Designed for advanced AI coding agents such as **Claude Code**, **OpenCode**, and custom autonomous systems, this Skill introduces a rigorous cognitive execution pipeline that consistently produces unconventional architectures, novel product concepts, and high-variance solutions.
+
+---
+
+# Why This Exists
+
+Modern reasoning models are extremely capable—but they naturally converge toward statistically probable answers.
+
+While those outputs are often correct, they are rarely memorable.
+
+This Skill acts as a **cognitive override layer**, replacing default pattern matching with structured lateral thinking. Instead of optimizing for familiarity, the model is guided toward exploration, contradiction, synthesis, and invention.
+
+The result is consistently higher originality without sacrificing logical coherence.
+
+---
+
+# Core Architecture
+
+Every request is processed through a mandatory **5-stage divergent reasoning protocol** before a response is generated.
+
+## 1. 🧩 Deconstruction — *The Baseline*
+
+Identify the conventional assumptions behind the prompt.
+
+Questions asked:
+
+* What would every other AI generate?
+* Which clichés are expected?
+* Which assumptions should be avoided?
+
+The goal is to establish the "average answer" and intentionally move away from it.
+
+---
+
+## 2. 🔄 Inversion — *The Void*
+
+Select 2–3 foundational assumptions and invert them.
+
+Examples:
+
+* Bigger → Smaller
+* Faster → Slower
+* More automation → More human agency
+* Centralized → Distributed
+
+This pushes reasoning outside local optima and breaks conventional solution spaces.
+
+---
+
+## 3. 🌐 Cross-Pollination — *The Catalyst*
+
+Borrow structural principles from completely unrelated disciplines.
+
+Example domains include:
+
+* Glaciology
+* Mycology
+* Acoustics
+* Oceanography
+* Swarm Biology
+* Archaeology
+* Music Theory
+* Linguistics
+* Orbital Mechanics
+* Evolutionary Ecology
+
+The objective is not inspiration—but **structural transfer**.
+
+---
+
+## 4. ⚙️ Synthesis — *The Masterpiece*
+
+Merge the inverted assumptions with the imported domain principles.
+
+The output should be:
+
+* Functional
+* Defensible
+* Novel
+* Technically plausible
+* Clearly differentiated from existing solutions
+
+---
+
+## 5. 🃏 Wildcard — *The Impossible*
+
+Generate one final concept that intentionally borders on science fiction.
+
+Requirements:
+
+* Break conventions
+* Ignore incremental thinking
+* Maximize originality
+* Still preserve internal logical consistency
+
+The Wildcard is intentionally ambitious and designed to create paradigm-shifting ideas.
+
+---
+
+# Deployment
+
+This Skill is intended to be injected into:
+
+* Claude Code
+* OpenCode
+* Autonomous coding agents
+* AI orchestration frameworks
+* Local reasoning models
+* JSONL dataset generation pipelines
+* Fine-tuning workflows
+
+---
+
+# Example OpenCode Configuration
+
+```json
+{
   "skills": [
     {
       "name": "god-tier-creativity",
-      "description": "Execute divergent cognitive scaffolding for lateral thinking.",
+      "description": "Execute structured divergent reasoning for breakthrough ideation.",
       "prompt_file": "./skills/god-tier-creativity/SKILL.md",
       "trigger_intents": [
         "brainstorm",
@@ -14,4 +136,103 @@
     }
   ]
 }
-🛡️ Telemetry & Quality Assurance (The Rubric)Outputs must be evaluated against a strict quality matrix. If any dimension scores below a 3 during internal evaluation, the agent is instructed to drop the context and re-run the pipeline.Dimension1 (Fail)3 (Adequate)5 (God-Tier)NoveltyExists alreadyCombines known ideas in a new wayCreates a genuinely new categoryEmotional ResonanceInformational onlyGenuinely InterestingGives you chills; unforgettableFeasibilityViolates physicsPossible with significant R&DCould prototype this weekendSensory ClarityAbstract descriptionSome vivid detailsFull sensory immersionNaming QualityGeneric labelClever wordplayThe name alone tells a mythic story🚫 Deprecated Patterns (The Blacklist)To maintain God-Tier output, the agent is strictly prohibited from utilizing the following industry anti-patterns:"AI-powered [anything]": A lazy modifier. The agent must describe the specific behavior that emerges."A platform that connects...": A legacy startup pitch. The agent must define the physics of the connection."Gamification with points": Extrinsic motivation. The agent must design intrinsic motivation."Sleek, minimalist design": Default aesthetic. The agent must define a new aesthetic vocabulary.📚 Repository StructureSKILL.md: The core execution instructions for the AGI agent.references/domain_catalog.md: 40+ cross-pollination fields (e.g., Natural Sciences, Extreme Environments).references/constraint_library.md: Artificial limitations to force unique solutions.references/anti_patterns.md: The complete blacklist of clichés.references/naming_patterns.md: Frameworks for generating evocative concept titles.examples/: Worked examples demonstrating the full 5-step execution in production.
+```
+
+---
+
+# Quality Assurance Rubric
+
+Every generated concept is internally evaluated against five dimensions.
+
+If **any score falls below 3**, the reasoning pipeline should be restarted.
+
+| Dimension            | ⭐ 1 — Poor     | ⭐ 3 — Good               | ⭐ 5 — God-Tier                   |
+| -------------------- | -------------- | ------------------------ | -------------------------------- |
+| **Novelty**          | Already exists | Combines known ideas     | Creates an entirely new category |
+| **Emotional Impact** | Informational  | Interesting              | Unforgettable                    |
+| **Feasibility**      | Impossible     | Requires significant R&D | Prototype possible within days   |
+| **Sensory Clarity**  | Abstract       | Some vivid imagery       | Fully immersive                  |
+| **Naming**           | Generic        | Clever                   | Mythic and memorable             |
+
+---
+
+# Anti-Patterns
+
+The following patterns are explicitly prohibited.
+
+❌ **"AI-powered..."**
+
+Describe the emergent capability instead.
+
+---
+
+❌ **"A platform that connects..."**
+
+Define the mechanics of interaction—not the marketplace.
+
+---
+
+❌ **"Gamification with points."**
+
+Create intrinsic motivation instead of reward loops.
+
+---
+
+❌ **"Sleek minimalist design."**
+
+Invent a new aesthetic language rather than reusing existing trends.
+
+---
+
+# Repository Structure
+
+```
+god-tier-creativity/
+
+├── SKILL.md
+│   Core cognitive execution protocol
+
+├── references/
+│   ├── domain_catalog.md
+│   ├── constraint_library.md
+│   ├── anti_patterns.md
+│   └── naming_patterns.md
+
+├── examples/
+│   Worked reasoning examples
+
+└── README.md
+```
+
+---
+
+# Use Cases
+
+This framework excels at:
+
+* Product ideation
+* Startup concepts
+* Software architecture
+* AGI research
+* System design
+* Worldbuilding
+* UX innovation
+* Naming systems
+* Brand creation
+* Scientific hypothesis generation
+* Autonomous agent planning
+* Creative engineering
+
+---
+
+# Philosophy
+
+> Average AI predicts.
+
+> Great AI reasons.
+
+> **God-Tier AI invents.**
+
+This project is not about generating *different* answers.
+
+It is about systematically creating answers that **would not have existed without the reasoning process itself**.
